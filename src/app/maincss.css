@@ -1,0 +1,105 @@
+#lofi-sleep-cont-main{
+    /* background: url(https://hdqwalls.com/wallpapers/night-sky-space-4k-6c.jpg);
+    min-height: 100vh;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain; */
+
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    list-style-type: none;
+}
+
+.lofi-sleep-secondary-cont{
+    background-color: rgb(33, 33, 33);
+    /* padding: 30px 30px 20px; */
+    padding: 15px;
+    border-radius: 10px;
+    /* border: white solid 1px; */
+    box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.357);
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.image-cont img{ 
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.text-under-img img{
+    width: 43px;
+    height: 43px;
+}
+
+.text-under-img{
+    display: flex;
+    align-items: center;
+    background-color:  rgba(88, 86, 86, 0.357);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 1px 7px;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.357); */
+    border: rgb(109, 106, 106) 3px solid;
+    color: white;
+
+    transition: all 0.3s ease;
+}
+
+.text-under-img:hover{
+    background-color:  rgba(130, 130, 130, 0.357);
+}
+
+.outro-text p{
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/* Media section */
+
+/* Media for screens under 300px */
+@media screen and (max-width: 300px) {
+    .image-cont img{
+       width: 200px;
+       height: 200px;
+    }
+
+    .text-under-img h2{
+        font-size: 20px;
+    }
+}
+/*  */
+
+/* Media for screens 301px to 400px */
+@media screen and (min-width: 301px) and (max-width:400px) {
+    .image-cont img{
+       width: 250px;
+       height: 250px;
+    }
+
+    .text-under-img h2{
+        /* font-size: 20px; */
+    }
+}
+/*  */

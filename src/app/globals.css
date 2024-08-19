@@ -1,0 +1,15 @@
+body{
+  /* min-height: 100vh; */
+
+  background: linear-gradient(10deg, black, rgb(33, 33, 33));
+  min-height: 100vh;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
